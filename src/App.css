@@ -1,0 +1,30 @@
+* {
+    box-sizing: border-box;
+    margin: 0;
+    padding: 0;
+  }
+  
+  body {
+    background-color: #36151E;
+  }
+  .react-app {
+    background: rgb(89,63,98);
+    background: linear-gradient(90deg, rgba(89,63,98,1) 0%, rgba(123,109,141,1) 38%, rgba(132,153,177,1) 60%);
+    padding-bottom: 25px;
+  }
+  .name{
+    margin-left: 100px;
+    font-size: xxx-large;
+    font-family:'Courier New', Courier, monospace;
+    color: white;
+  }
+
+   .nav{
+    color: white;
+    text-decoration: none;
+    font-size: x-large;
+    font-family:'Courier New', Courier, monospace;
+  }
+  .nav:hover{
+    color:#36151E;
+  }
