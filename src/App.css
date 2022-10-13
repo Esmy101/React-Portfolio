@@ -28,3 +28,13 @@
   .nav:hover{
     color:#36151E;
   }
+  .icon{
+    color: #8499B1;
+    font-size:30px;
+    margin-right: 15px;
+  }
+  footer{
+    display: flex;
+    justify-content: center;
+    align-items: flex-end;
+  }

@@ -29,7 +29,7 @@ export default function Nav() {
           </a>
         </div>
         <div style={linkStyle}>
-          <a className="nav" href="#">
+          <a className="nav" href="Resume">
             Resume
           </a>
         </div>
