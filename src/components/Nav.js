@@ -1,6 +1,6 @@
 import React from "react";
 
-export default function Nav() {
+export default function Nav(props) {
   const linkStyle = { border: "25px black", padding: "35px" };
 
   return (
@@ -13,25 +13,26 @@ export default function Nav() {
           justifyContent: "flex-end",
         }}
       >
-        <div style={linkStyle}>
-          <a className="nav" href="#">
-            About Me
-          </a>
+        <div style={linkStyle} onClick={() => props.navigate(props.pages.home)}>
+          <a className="nav">About Me</a>
         </div>
-        <div style={linkStyle}>
-          <a className="nav" href="#">
-            Portfolio
-          </a>
+        <div
+          style={linkStyle}
+          onClick={() => props.navigate(props.pages.portfolio)}
+        >
+          <a className="nav">Portfolio</a>
         </div>
-        <div style={linkStyle}>
-          <a className="nav" href="#">
-            Contact
-          </a>
+        <div
+          style={linkStyle}
+          onClick={() => props.navigate(props.pages.contact)}
+        >
+          <a className="nav">Contact</a>
         </div>
-        <div style={linkStyle}>
-          <a className="nav" href="Resume">
-            Resume
-          </a>
+        <div
+          style={linkStyle}
+          onClick={() => props.navigate(props.pages.resume)}
+        >
+          <a className="nav">Resume</a>
         </div>
       </section>
     </nav>

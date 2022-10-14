@@ -12,14 +12,16 @@
     background: linear-gradient(90deg, rgba(89,63,98,1) 0%, rgba(123,109,141,1) 38%, rgba(132,153,177,1) 60%);
     padding-bottom: 25px;
   }
+
+  /*My name*/
   .name{
     margin-left: 100px;
     font-size: xxx-large;
     font-family:'Courier New', Courier, monospace;
     color: white;
   }
-
-   .nav{
+  /*navigation*/
+  .nav{
     color: white;
     text-decoration: none;
     font-size: x-large;
@@ -28,6 +30,7 @@
   .nav:hover{
     color:#36151E;
   }
+  /*footer icons*/
   .icon{
     color: #8499B1;
     font-size:30px;
@@ -37,4 +40,43 @@
     display: flex;
     justify-content: center;
     align-items: flex-end;
+  }
+
+/*all Pages*/
+  .page {
+    color: white;
+    padding-left: 150px;
+    margin-top: 35px;
+   font-size: x-large
+  }
+
+  /*person icon*/
+  .person{
+    color: white;
+    font-size: 35px;
+    margin-top: 25px;
+  }
+
+  /*resume link*/
+  .resume{
+    color: #A5C4D4;
+  }
+
+  /*Resume section*/
+  .frontEnd,
+  .backEnd{
+    margin-top: 25px;
+  }
+
+  img{
+    margin-top: 25px;
+    max-width: 350px;
+    max-height: 350px;
+    margin-right: 25px;
+   
+  }
+  .Project{
+     display: flex;
+    justify-content: center;
+    align-items: center;
   }
