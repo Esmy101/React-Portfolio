@@ -9,7 +9,7 @@ export default function Resume() {
       <h1>Resume</h1>
       <p>
         Download my{" "}
-        <a className="resume" href={resume}>
+        <a className="resume" href={resume} target="_blank">
           resume
         </a>
       </p>

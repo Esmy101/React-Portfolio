@@ -2,6 +2,8 @@
 
 ## Description
 
+A portfolio made from using React.js
+
 ## Table of Contents
 
 - [User Story](#user-story)
@@ -80,7 +82,7 @@ THEN I am presented with text or icon links to the developer’s GitHub and Link
 
 ---
 
-![gif]()
+![gif](./public/assets/Demo.gif)
 
 ## Questions
 
