@@ -53,8 +53,9 @@
   /*person icon*/
   .person{
     color: white;
-    font-size: 35px;
+    font-size: 45px;
     margin-top: 25px;
+    margin-bottom: 25px;
   }
 
   /*resume link*/
@@ -70,13 +71,35 @@
 
   img{
     margin-top: 25px;
-    max-width: 350px;
-    max-height: 350px;
+    max-width: 450px;
+    max-height: 450px;
     margin-right: 25px;
    
   }
-  .Project{
-     display: flex;
-    justify-content: center;
-    align-items: center;
+
+  img:hover{
+    filter: blur(2px)  brightness(80%);
   }
+
+  .Projects{
+    position: relative;
+    text-align: center;
+  }
+  
+  .projectName {
+    position: absolute;
+    top: 50%;
+    left: 40%;
+    color:#7B6D8D;
+    font-weight:bolder;
+    font-family:'Courier New', Courier, monospace;
+    text-shadow: 2px 2px black;
+  }
+  .projectGit{
+    position: absolute;
+    top: 50%;
+    left: 56%;
+    color:#7B6D8D;
+    font-size:40px;
+  }
+ 
