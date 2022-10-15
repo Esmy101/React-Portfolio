@@ -38,10 +38,10 @@ export default function Project(props) {
 
       {content ? (
         <div className="">
-          <a href={props.app}>
+          <a href={props.app} target="_blank">
             <p className="projectName">{props.title}</p>
           </a>
-          <a href={props.github}>
+          <a href={props.github} target="_blank">
             <FaGithub className="projectGit" />
           </a>
         </div>
